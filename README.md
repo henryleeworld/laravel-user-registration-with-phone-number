@@ -1,4 +1,4 @@
-# Laravel 10 帶有電話號碼註冊帳號
+# Laravel 11 帶有電話號碼註冊帳號
 
 想聯絡素未謀面的客戶，最有效的方式莫過於打電話，因為相較於簡訊或是電子郵件，更能和顧客直接互動，有助於更進一步討論產品或服務的內容。但陌生電話容易使人忽略，直接轉接語音信箱的機率非常高，這時可透過語音訊息留下聯絡資訊及可提供的服務，吸引客戶的注意，進而和客戶建立更緊密的聯繫。
 
@@ -16,9 +16,9 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
-- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移，並執行資料庫填充（如果要測試的話）。
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
 ```sh
-$ php artisan migrate --seed
+$ php artisan migrate
 ```
 - 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
 ```sh
@@ -35,5 +35,5 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/DiKFf8q.png)
+![](https://i.imgur.com/33UXpHP.png)
 > 驗證使用者電話號碼
